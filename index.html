@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="FREE certification courses on Data Science, Machine Learning, Business Strategy, and Consulting by the Consulting and Analytics Club, IIT Guwahati. Access courses, assignments, projects and more.">
+    <meta name="robots" content="index; follow">
+    <title>Consulting &amp; Analytics Club, IIT Guwahati</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+
+
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            function bouncy(i) {
+                $(i).animate({
+                    'marginTop' : "-2.5vh",
+                }, 100);
+                $(i).delay(200);
+                $(i).animate({
+                    'marginTop' : "10vh",
+                }, 50);
+                setTimeout(blackout, 350, '#bg');
+            }
+
+            function blackout(i) {
+                $(i).fadeOut(1000);
+                setTimeout(loadnew, 1000);
+            }
+
+            function loadnew() {
+                window.location.href = 'home.html'
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="bg">
+            <div id="logo">
+                <img src="logo-white.png" alt="Consulting & Analytics Club, IIT Guwahati" class="cna-logo">
+                <p class="welcome-title" style="margin-bottom: 2vh; font-size: 2.5vh; line-height: 4vh;">Consulting &amp; Analytics Club <br>IIT Guwahati</p>
+            </div>
+
+            <div id="welcome-wc" style="background-image:linear-gradient(#6971cc, #5271ff, #52aabb); color: #5271ff;
+            background-repeat: no-repeat;background-size:100% 100%;background-position: center;"
+                class="welcome-wc jumbotron text-center">
+                <span class="welcome-title" style="font-size: xx-large;">
+                    <div style="font-size: 60px;">Winter Consulting</div>
+                </span>
+                <span class="welcome-title">
+                    <p class="welcome-title" style="padding-top: 10px;">A primer course on <strong>Consulting</strong> and <strong>Business Fundamentals</strong></p>
+                </span><br>
+            <button id="register-wc" style="padding: 15px 25px;
+            color: #39481d;border-radius: 0%;background: #002d5e"><a style="text-decoration: none;display: inline-grid;"
+            href="https://iitg.ac.in/sa/caciitg/wc21" target="_blank">Course Website
+                    </a></button>
+            </div>
+
+            <div id="welcome-sa" class="welcome-sa">
+            <span class="welcome-title">
+                <div style="font-size: 60px;">Summer Analytics</div>
+            </span>
+            <span class="welcome-title">
+                <p class="welcome-title" style="padding-top:10px">A primer course on <strong>Data Science</strong> and <strong>Machine Learning</strong></p>
+            </span>
+                    <br><button id="register-sa" style="padding: 15px 25px;border-radius: 0%;background: #52aabb">
+                        <a href="https://iitg.ac.in/sa/caciitg/sa21" target="_blank";>Course Website</a></button>
+            </div>
+
+            <div id="rest" onclick="bouncy(rest)">
+                    <h2 style="color: gold;">&#128640; Proceed to website &#128640;</h2>
+            </div>
+        </div>
+
+</body>
+</html>
