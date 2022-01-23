@@ -168,8 +168,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
-    width: 20%;
+    align-self: center;
+    width: 30%;
     height: 30vh;
     
 
@@ -177,11 +177,10 @@
   .cc10 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
-    width: 25%;
-    height: 30vh;
-    
+    align-self: center;
+    justify-content: space-around;
+    width: 20%;
+    height: 30vh;   
 
   }
   .cc12 {
@@ -197,8 +196,10 @@
   #welcome-cc {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-image: linear-gradient(to top left,#152e41,#07686b);
     flex-wrap: wrap;  
+    height: 30vh;
   }
   #welcome-wc {
     display: flex;
@@ -293,9 +294,9 @@
   #register-wc > a {
     text-decoration: none;
     color: #ddd222;
-    height: 4vh;
+    height: 2vh;
     vertical-align: middle;
-    line-height: 4vh;
+    line-height: 2vh;
   }
 
   #maintenanceText {
@@ -328,17 +329,35 @@
 	transition: all 0.1s;
   }
   #register-sa:not( :hover){
-	background: #72ccdd !important;
+	background: #1AEDEF !important;
 	transition: all 0.5s ease-out;
   }
 
   #register-sa > a {
     text-decoration: none;
     color: #39481d;
-    height: 4vh;
+    height: 2vh;
     vertical-align: middle;
-    line-height: 4vh;
+    line-height: 2vh;
   }
+
+  #register-insta:hover{
+    background: white !important;
+    transform: scale(1.05);
+    transition: all 0.1s;
+    }
+    #register-insta:not( :hover){
+    background: #DD2A7B !important;
+    transition: all 0.5s ease-out;
+    }
+  
+    #register-insta > a {
+      text-decoration: none;
+      color: #000000;
+      height: 2vh;
+      vertical-align: middle;
+      line-height: 2vh;
+    }
   .welcome-title {
     color: white;
     font-family: 'Raleway';
@@ -929,14 +948,18 @@ strong {
     border: 6px solid white;
   }
   #welcome-cc {
-    height: 15%;
+    height: 30vh;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to top left,#152e41,#07686b);
   }
 
   #cc01 {
     justify-content: center;
     align-items: center;
-    margin-top: -30%;
+    /* margin-top: -30%; */
   }
 
   .cc1 {
