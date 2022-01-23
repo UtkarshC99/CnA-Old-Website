@@ -52,6 +52,7 @@
     font-weight: 100;
     src: local('Saira Thin'), local('Saira-Thin'), url(https://fonts.gstatic.com/s/saira/v4/mem-Ya2wxmKQyNFEfZE1Ug.ttf) format('truetype');
   }
+
   @font-face {
     font-family: 'Saira';
     font-style: normal;
@@ -151,6 +152,53 @@
     padding: 0px;
     margin: 0px;
     /* filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797'); */
+  }
+  #Welcome {
+    display: flex;
+    flex-direction: row;
+    background-color: #000030;
+    
+    height: 30vh;
+    width: 100%;
+    /* background:  #000030; */
+    background: black;
+    
+  }
+  .cc1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    width: 20%;
+    height: 30vh;
+    
+
+  }
+  .cc10 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    width: 25%;
+    height: 30vh;
+    
+
+  }
+  .cc12 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 30%;
+    height: 30vh;
+    
+
+  }
+  #welcome-cc {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to top left,#152e41,#07686b);
+    flex-wrap: wrap;  
   }
   #welcome-wc {
     display: flex;
@@ -880,6 +928,21 @@ strong {
     letter-spacing: 6px;
     border: 6px solid white;
   }
+  #welcome-cc {
+    height: 15%;
+    flex-wrap: wrap;
+  }
+
+  #cc01 {
+    justify-content: center;
+    align-items: center;
+    margin-top: -30%;
+  }
+
+  .cc1 {
+    height: 50%;
+    margin-top: 0%;
+  }
 
   .section-layout {
     display: flex;
@@ -1107,3 +1170,5 @@ strong {
 .contact-details:hover {
   transform: scale(1.12);
 }
+
+
